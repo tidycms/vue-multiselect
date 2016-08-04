@@ -17,7 +17,7 @@
           track-by="$index"
           onmousedown="event.preventDefault()"
           class="multiselect__tag">
-            <span v-text="getOptionLabel(option)"></span>
+            <span v-html="getOptionLabel(option)"></span>
             <i
               aria-hidden="true"
               tabindex="1"
