@@ -76,7 +76,7 @@
               :data-selected="selectedLabel"
               :data-deselect="deselectLabel"
               class="multiselect__option"
-              v-text="getOptionLabel(option)">
+              v-html="getOptionLabel(option)">
             </span>
           </li>
         </template>
